@@ -1,16 +1,44 @@
-.imgMapa {
-    position: relative;
-    display: inline-block;
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: #ffffff;
 }
-
-.indicadores {
-    margin-top: 10px; /* Espacio entre el mapa y los cuadrados */
+.titulos{
     display: flex;
-    align-items: center; /* Alinea verticalmente */
+    justify-content: center;
+    margin-top: 10px;
+    color: #b0e9f5;
 }
 
-.cuadrado {
-    width: 20px; /* Tamaño del cuadrado */
-    height: 20px; /* Tamaño del cuadrado */
-    margin-right: 10px; /* Espacio entre el cuadrado y el texto */
+.imgMapa{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.content{
+    display: flex;
+}
+
+.btncontent{
+    display: flex;
+}
+
+.btnDep {
+    text-decoration: none;
+    background-color: #b0e9f5;
+    color: #ebfafd;
+    padding: 10px 20px;
+    border: 2px solid #b0e9f5;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.btnDep:hover {
+    background-color: #ebfafd;
+    color: #b0e9f5;
+    border-color: #ebfafd;
 }
