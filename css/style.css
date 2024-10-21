@@ -5,9 +5,7 @@
 }
 
 .tittleIndex{
+    display: flex;
     justify-content: center;
-    align-content: center;
-    align-items: center;
-    /* margin-left: 25%; */
-    padding: auto;
+    
 }
