@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,9 +8,45 @@
 </head>
 <body>
     <div class="tittleIndex">
-
-        <h1>Mapa de colombia</h1>
+        <h1>Mapa de Colombia</h1>
     </div>
-    
+    <div class="imgMapa">
+        <img id="imgSize" src="./images/MAPITA.jpg" alt="map de colombia" usemap="#mapitaDep">
+        <map name="mapitaDep">
+            <area style="background-color: black;" shape="circle" coords="200,230,30" href="./view/boyaca.html" alt="boyacaCity">
+
+        </map>
+    </div>
+
+    <div class="buttons">
+        <button>Botón</button>
+    </div>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Interactivo</title>
+    <link rel="stylesheet" href="style.css"> <!-- Enlaza el archivo CSS -->
+</head>
+<body>
+    <h1>Mapa Interactivo</h1>
+    <div class="imgMapa">
+        <img src="images/mapaSeb.jpg" usemap="#miMapa" alt="Mapa de Colombia">
+
+        <map name="miMapa">
+            <area shape="circle" coords="200,230,30" href="./view/boyaca.html" alt="Área 1">
+        </map>
+    </div>
+
+    <div class="indicadores">
+        <div class="cuadrado" style="background-color: red;"></div>
+        <span>Boyacá</span>
+    </div>
 </body>
 </html>
+
+
+

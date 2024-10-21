@@ -1,11 +1,16 @@
-*{
-    padding: 0%;
-    margin: 0%;
-    background-color: beige;
+.imgMapa {
+    position: relative;
+    display: inline-block;
 }
 
-.tittleIndex{
+.indicadores {
+    margin-top: 10px; /* Espacio entre el mapa y los cuadrados */
     display: flex;
-    justify-content: center;
-    
+    align-items: center; /* Alinea verticalmente */
+}
+
+.cuadrado {
+    width: 20px; /* Tamaño del cuadrado */
+    height: 20px; /* Tamaño del cuadrado */
+    margin-right: 10px; /* Espacio entre el cuadrado y el texto */
 }
