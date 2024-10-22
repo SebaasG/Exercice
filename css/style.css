@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
     font-family: "Indie Flower", cursive;
@@ -9,14 +10,15 @@ html, body {
     background-size: cover;
 }
 
-h1, h2{
+h1,
+h2 {
     margin-top: 0%;
 }
 
-.imgIndex{
-    text-align: center; /* Centra la imagen */
+.imgIndex {
+    text-align: center;
     margin-top: 25px;
-    width: 100%; /* Se asegura de que el contenedor ocupe todo el ancho */
+    width: 100%;
 }
 
 .titulos {
@@ -47,7 +49,8 @@ h1, h2{
     margin: 0 auto;
 }
 
-.textInfo, h2 {
+.textInfo,
+h2 {
     font-size: 32px;
     color: #b30000;
     margin-bottom: 20px;
