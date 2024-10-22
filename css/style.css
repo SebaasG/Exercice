@@ -9,44 +9,74 @@ html, body {
     background-size: cover;
 }
 
+h1, h2{
+    margin-top: 0%;
+}
+
+.imgIndex{
+    text-align: center; /* Centra la imagen */
+    margin-top: 25px;
+    width: 100%; /* Se asegura de que el contenedor ocupe todo el ancho */
+}
+
 .titulos {
     display: flex;
     justify-content: center;
     margin-top: 10px;
-    color: red;
+    color: #b30000;
     font-size: 40px;
+    height: 80px;
 }
 
 .content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con 80% de opacidad */
-    padding: 20px; /* Añadir un poco de espacio interno */
-    border-radius: 8px; /* Esquinas redondeadas */
-    margin: 2%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 4%;
 }
 
 .textInfo {
     display: flex;
-    flex-direction: column; /* Para apilar h2 y ol verticalmente */
-    align-items: center; /* Centra el contenido */
-    text-align: center; /* Centra el texto */
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.textInfo, h2 {
+    font-size: 32px;
+    color: #b30000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.textInfo section {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.textInfo h3 {
+    font-size: 24px;
+    color: #b30000;
+    margin-bottom: 10px;
+}
+
+.textInfo p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #444;
 }
 
 .mapa {
     width: 735px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-
-.imgMapa {
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-    width: 700px;
     height: auto;
 }
 
@@ -54,18 +84,23 @@ html, body {
     display: flex;
     justify-content: center;
     margin-top: 25px;
+}
+
+.imgNew img {
     max-width: 100%;
-    max-height: 500px; 
+    height: auto;
+    border-radius: 8px;
 }
 
 .btncontent {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .btnDep {
     text-decoration: none;
-    background-color: red;
+    background-color: #b30000;
     color: #ebfafd;
     padding: 10px 20px;
     border-radius: 8px;
