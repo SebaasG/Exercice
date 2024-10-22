@@ -1,56 +1,80 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    background-color: #ffffff;
-    
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: "Indie Flower", cursive;
+    font-weight: 700;
+    background: url(https://thumbs.dreamstime.com/b/ruido-negro-en-un-fondo-blanco-textura-oscura-de-puntos-y-gránulos-148433705.jpg);
+    background-size: cover;
 }
-.titulos{
+
+.titulos {
     display: flex;
     justify-content: center;
     margin-top: 10px;
-    color: #b0e9f5;
-}
-.textInfo{
-    padding: 15px 10% 15px 10%;
-    display: flex;
-    justify-content: center;
+    color: red;
+    font-size: 40px;
 }
 
-.imgMapa{
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con 80% de opacidad */
+    padding: 20px; /* Añadir un poco de espacio interno */
+    border-radius: 8px; /* Esquinas redondeadas */
+    margin: 2%;
+}
+
+.textInfo {
+    display: flex;
+    flex-direction: column; /* Para apilar h2 y ol verticalmente */
+    align-items: center; /* Centra el contenido */
+    text-align: center; /* Centra el texto */
+}
+
+.mapa {
+    width: 735px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.imgMapa {
     display: flex;
     justify-content: center;
     margin-top: 25px;
+    width: 700px;
+    height: auto;
 }
 
-.imgNew{
+.imgNew {
     display: flex;
     justify-content: center;
     margin-top: 25px;
-    height: auto; 
     max-width: 100%;
     max-height: 500px; 
 }
 
-.btncontent{
+.btncontent {
     display: flex;
     justify-content: center;
 }
 
 .btnDep {
     text-decoration: none;
-    background-color: #b0e9f5;
+    background-color: red;
     color: #ebfafd;
     padding: 10px 20px;
-    border: 2px solid #b0e9f5;
     border-radius: 8px;
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-    
+    transition: background-color 0.3s;
 }
 
 .btnDep:hover {
-    background-color: #ebfafd;
-    color: #b0e9f5;
-    border-color: #ebfafd;
+    background-color: #ff7f6f;
 }
